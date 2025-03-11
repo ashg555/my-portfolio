@@ -1,6 +1,6 @@
 
 
-// smooth scrolling from w3schools
+// smooth scrolling code adapted from w3schools
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -26,7 +26,7 @@ $(document).ready(function(){
   });
 });
 
-
+// Code to check if the form has been filled out
 function validateForm() {
   var name = document.forms["contactForm"]["name"].value;
   var email = document.forms["contactForm"]["email"].value;
@@ -50,6 +50,7 @@ function validateForm() {
   alert("Message '" + message + "' submitted successfully! (disclaimer: this doesn't actually submit anything)");
 }
 
+// Code that allows you to look closely at the project screenshots
 function openFullscreen(imageId) {
   var img = document.getElementById(imageId);
   var fullscreenImg = document.getElementById("fullscreenImage");
